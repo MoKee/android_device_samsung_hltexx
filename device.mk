@@ -21,4 +21,4 @@ $(call inherit-product-if-exists, vendor/samsung/hltexx/hltexx-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += device/samsung/hltexx/overlay-gsm
 
 # Inherit from hltexx
-$(call inherit-product, device/samsung/hlte-common/hlte-common.mk)
+$(call inherit-product, device/samsung/hlte-common/full_hlte.mk)
